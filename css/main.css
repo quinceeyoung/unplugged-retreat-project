@@ -87,6 +87,181 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/***** Base Header - Footer Styles *****/
+
+   header,
+   footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+/* Header Styles */
+
+header .content-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure{
+
+}
+
+.header-divider {
+
+}
+
+header nav {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul{
+  display:flex;
+  justify-content: space-around;
+}
+
+/* Mobile Styles - Homepage */
+.hero-area {
+  display:flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+
+aside {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside .form-description{
+
+}
+
+aside .form{
+
+}
+
+.features{
+  display:flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.features .features-items{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features-item-description{
+
+}
+
+.reviews{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Mobile Styles - About Page */
+
+.mission{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.mission-content{
+
+}
+
+.map{
+
+}
+
+.map figure{
+
+}
+
+.contact-section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-column1{
+
+}
+
+.contact-column2{
+
+}
+
+/* Mobile Styles - FAQ page */
+
+.faq-content{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+.faq-item{
+
+}
+
+
+/* Footer */
+
+footer {
+
+}
+
+.footer-content{
+
+}
+
+.contact{
+
+}
+
+footer .social-icons{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright{
+
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
