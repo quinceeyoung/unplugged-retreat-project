@@ -99,11 +99,16 @@ textarea {
 
 /* Header Styles */
 
+header{ 
+padding: 15px 0;
+}
+
 header .content-wrapper {
   display:flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header figure{
@@ -111,7 +116,9 @@ header figure{
 }
 
 .header-divider {
-
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -119,11 +126,13 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul{
   display:flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 /* Mobile Styles - Homepage */
@@ -155,6 +164,15 @@ aside .form{
   flex-flow: row wrap;
 }
 
+.features h2{
+  margin-bottom: 60px;
+}
+
+.features article{
+  width: 63%;
+  margin: 30px 0;
+}
+
 .features .features-items{
   display:flex;
   justify-content: center;
@@ -162,8 +180,8 @@ aside .form{
   flex-flow: row wrap;
 }
 
-.features-item-description{
-
+.features p{
+  margin:0;
 }
 
 .reviews{
@@ -171,6 +189,15 @@ aside .form{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.reviews h2 {
+  margin-bottom:40px;
+}
+
+.reviews h3{
+  width: 55%;
+  margin: 20px 0;
 }
 
 /* Mobile Styles - About Page */
@@ -199,6 +226,10 @@ aside .form{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.contact-content p{
+  margin:0;
 }
 
 .contact-column1{
@@ -237,12 +268,17 @@ footer {
 
 }
 
-.footer-content{
-
+footer p{
+  margin:0;
 }
 
-.contact{
+footer .content-wrapper{
+  width: 55%;
+  margin: 50px 0;
+}
 
+footer .contact{
+  margin-bottom: 50px;
 }
 
 footer .social-icons{
@@ -257,8 +293,8 @@ footer .social-icons p{
   align-items: center;
 }
 
-.copyright{
-
+footer .copyright{
+margin: 20px 0;
 }
 
 
