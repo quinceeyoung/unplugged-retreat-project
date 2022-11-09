@@ -427,6 +427,9 @@ header nav ul {
 }
 
 /* Hero Area */
+.hero-area h1 {
+  width: 60%;
+}
 
 /* Aside */
 aside .content-wrapper {
