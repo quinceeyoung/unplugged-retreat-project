@@ -473,6 +473,16 @@ input[type=button] {
     margin: 100px 0;
 }
 
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+
+h3{
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
 /* Header */
 
 header {
@@ -485,6 +495,10 @@ header .content-wrapper {
     justify-content: space-between;
 }
 
+header figure {
+  width:30%;
+}
+
 header nav {
     width: 20%;
 }
@@ -495,6 +509,12 @@ header nav ul {
 
 .header-divider {
     display: none;
+}
+
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
 }
 
 /* Aside */
@@ -513,6 +533,10 @@ aside .content-wrapper .form {
 
 /* Features */
 
+.features h2 {
+  margin-bottom: 20px;
+}
+
 .features article {
   display: flex;
   justify-content: center;
@@ -522,7 +546,7 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-description {
-    width: 50%;
+    width: 62%;
 }
 
 /* Reviews */
@@ -531,8 +555,21 @@ aside .content-wrapper .form {
   justify-content: space-between;
 }
 
+.reviews h2 {
+  width: 85%;
+}
+
+.reviews p {
+    width: 50%;
+}
+
 .reviews article div {
-    width: 49%;
+  width: 49%;
+}
+
+.reviews h3 {
+  width: 75%;
+  margin: 0;
 }
 
 /* Footer */
@@ -549,6 +586,15 @@ footer .content-wrapper {
 
 footer .contact {
     margin-bottom: 0;
+}
+
+footer h4 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+footer p {
+    line-height: 1.285;
 }
 
 footer .copyright {
