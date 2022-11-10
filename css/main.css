@@ -265,10 +265,12 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 
 .contact-section{
+  background-color: #2a423a;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -282,11 +284,12 @@ aside {
 
 /* Mobile Styles - FAQ page */
 
-.faq-content{
+.faq {
   display:flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper{
@@ -299,13 +302,16 @@ aside {
 
 .faq h2{
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content{
   margin-bottom: 50px;
 }
 
-
+.faq-content h4 {
+  line-height: 1.333;
+}
 
 /* Footer */
 
@@ -608,7 +614,8 @@ footer .copyright {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 20px
+      flex-flow: row wrap;
+      padding-top: 20px;
     }
   
     .mission-content p {
@@ -623,6 +630,10 @@ footer .copyright {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+      flex-flow: row wrap;
+    }
+    .contact-content h4 {
+      font-size: 1.5em;
     }
   
     /* ==========================================================================
@@ -640,6 +651,11 @@ footer .copyright {
     .faq h2 {
       width: 100%;
     }
+    .faq h4,
+    .faq p {
+        font-size: .875em;
+        line-height: 1.125;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -648,6 +664,11 @@ footer .copyright {
   .content-wrapper {
     max-width: 960px;
 }
+
+header {
+  padding: 15px 0;
+}
+
 h2 {
   font-size: 2.25em;
 }
@@ -694,10 +715,6 @@ aside .content-wrapper .form {
   flex-basis: 33%;
 }
 
-.features p{
-
-}
-
 /* Reviews */
 
 .reviews h2 {
@@ -719,7 +736,10 @@ footer h4 {
       width: 95%;
       font-size: 3em;
     }
-  
+
+    .contact-content h4 {
+      font-size: 1.875em;
+    }
     /* ==========================================================================
      FAQ Page
      ========================================================================== */
