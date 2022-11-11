@@ -137,6 +137,14 @@ p {
 	font-size: 1.125em;
   line-height: 1.285;
 }
+
+img {
+  width: 100%;
+ }
+  
+ figure {
+  margin: 0;
+ }
  
 address {
   font-style: normal;
@@ -196,6 +204,11 @@ header nav ul li{
   display:flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/hero-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
 }
 
 .hero-area h1{
@@ -218,7 +231,12 @@ aside {
   display:flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/features-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 
 .features h2{
   margin-bottom: 60px;
@@ -565,10 +583,7 @@ aside .content-wrapper .form {
   width: 85%;
 }
 
-.reviews p {
-    width: 50%;
-}
-
+.reviews article figure,
 .reviews article div {
   width: 49%;
 }
@@ -577,6 +592,7 @@ aside .content-wrapper .form {
   width: 75%;
   margin: 0;
 }
+
 
 /* Footer */
 footer .content-wrapper {
@@ -717,16 +733,17 @@ aside .content-wrapper .form {
 
 /* Reviews */
 
-.reviews h2 {
-  padding-bottom: 50px; 
+.reviews article div {
+  width: 42%;
 }
 
-.reviews p {
-  width: 40%;
+.reviews h2 {
+  padding-bottom: 50px;
 }
 
 footer h4 {
   font-size: 1.875em;
+}
 }
     /* ==========================================================================
      About Page
